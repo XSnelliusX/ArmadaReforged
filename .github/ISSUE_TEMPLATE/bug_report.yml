@@ -1,0 +1,30 @@
+name: Bug report
+description: Something in the game does not work or behaves differently from the original.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting. Please never attach files of the original game.
+  - type: input
+    id: version
+    attributes: { label: Armada Reforged version, placeholder: "1.0.0" }
+    validations: { required: true }
+  - type: input
+    id: macos
+    attributes: { label: macOS version and Mac model, placeholder: "macOS 15.2, MacBook Air M2" }
+    validations: { required: true }
+  - type: dropdown
+    id: look
+    attributes: { label: Look, options: [Original, Upscaled] }
+  - type: input
+    id: where
+    attributes: { label: Mission or map, placeholder: "Federation mission 3 / Instant Action on 2duel" }
+  - type: textarea
+    id: what
+    attributes: { label: What happened, and what did you expect?, description: Steps to reproduce help a lot. }
+    validations: { required: true }
+  - type: textarea
+    id: log
+    attributes:
+      label: Log file
+      description: Drag in Logs/logfile.txt from ~/Library/Application Support/ArmadaNative/ (and a save game if it helps).
