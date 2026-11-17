@@ -15,7 +15,7 @@ with optional upscaled textures and remodelled ships.</p>
   <a href="#known-issues">Known issues</a>
 </p>
 
-https://github.com/user-attachments/assets/b000a758-88dd-41ef-af2d-1d9e105ee820
+https://github.com/user-attachments/assets/1427b120-449e-4b55-b6b6-bd4a6c92068d
 
 > [!IMPORTANT]
 > **You need your own copy of Star Trek: Armada.** Armada Reforged contains no game data and does not support piracy.
